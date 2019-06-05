@@ -1,0 +1,29 @@
+.beers {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px gray;
+    width: 25%;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.beers > img {
+    width: 25%;
+    margin: 0px auto;
+}
+
+.like-btn {
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    width: 25%;
+    margin: 0px auto;
+}
+
+.like-btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 1px gray;
+}
